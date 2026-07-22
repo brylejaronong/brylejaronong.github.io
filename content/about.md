@@ -4,4 +4,4 @@ draft = false
 title = 'About'
 +++
 
-hello world!
+This website will contain information about projects I worked on while I was a student at SDSU.
