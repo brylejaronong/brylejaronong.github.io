@@ -32,11 +32,13 @@ a {
 }
 
 img { /* image styling */
-  flex: 1;
+  flex: none;
   object-fit: cover;
 }
 
-img.resize { /* image resizing */
-  width: 50%;
-  height: auto;
+.profile-photo { /* profile photo styling */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 30%;
 }
