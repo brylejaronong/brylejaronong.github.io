@@ -22,9 +22,19 @@ a {
 }
 
 /* my custom styles */
+main { /* main content properties */
+  padding-left: 40px; /* add to match ul padding */
+}
+
 .home-wrapper { /* home page content wrapper */
   display: flex;
   gap: 2rem;
+}
+
+.menu-wrapper { /* menu wrapper */
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
 }
 
 .text-content { /* text content wrapper */
