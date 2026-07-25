@@ -21,20 +21,14 @@ a {
   text-decoration: none;
 }
 
-/* my custom styles */
 main { /* main content properties */
   padding-left: 40px; /* add to match ul padding */
 }
 
+/* home page content */
 .home-wrapper { /* home page content wrapper */
   display: flex;
   gap: 2rem;
-}
-
-.menu-wrapper { /* menu wrapper */
-  display: flex;
-  gap: 1rem;
-  list-style-type: none;
 }
 
 .text-content { /* text content wrapper */
@@ -47,4 +41,16 @@ main { /* main content properties */
   height: 300px;
   object-fit: cover;
   object-position: center 30%;
+}
+/* end of home page content */
+
+.menu-wrapper { /* menu wrapper */
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.course-columns { /* course columns in sdsu-undergrad page */
+  display: flex;
+  gap: 2rem;
 }
