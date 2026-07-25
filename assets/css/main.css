@@ -38,9 +38,9 @@ main { /* main content properties */
 .profile-photo { /* profile photo styling */
   flex: none;
   width: 300px;
-  height: 300px;
+  height: 450px;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center;
 }
 /* end of home page content */
 
