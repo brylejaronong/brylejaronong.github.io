@@ -1,7 +1,7 @@
 +++
 date = '2026-07-24T15:47:25-07:00'
 draft = false
-title = 'SDSU Undergrad'
+title = 'My SDSU Undergrad'
 +++
 
 I attended San Diego State University for my undergrad from 2022-2026, and although I kept mostly to myself, I strived to take a variety of courses in both computer science and philosophy. I participated in the following clubs as a regular member: cyberdefense, eleetcoders, quantum computing, philosophy club. I gained experience through the [Real Time Embedded & Controls](https://rtec.sdsu.edu/) Lab under prof. Choi.
