@@ -6,29 +6,31 @@ title = 'SDSU Undergrad'
 
 I attended San Diego State University for my undergrad from 2022-2026, and although I kept mostly to myself, I strived to take a variety of courses in both computer science and philosophy. I participated in the following clubs as a regular member: cyberdefense, eleetcoders, quantum computing, philosophy club. I gained experience through the [Real Time Embedded & Controls](https://rtec.sdsu.edu/) Lab under prof. Choi.
 
-### Computer Science Courses ###
-- Computational Linguistics
+{{< columns >}}
 - Networks & Distributed Systems
 - 3d Game Programming
 - Unix System Administration
 - Operating Systems
 - Computer Architecture
-- Machine Learning
-- Cryptography & Blockchain
+- Machine Learning & Computational Linguistics
 - Intro to Software Systems
-- Algorithms
-- Database Theory and Implementation
+- Data Structures & Algorithms
+- Database Theory & Implementation
 - Systems Programming
 
-### Philosophy Courses ###
+[]()
+
 - Metaphysics
 - Asian Philosophies
 - Philosophy of Language
-- 19th-Century European Philosophy
-- History of Philosophy from Ancient times to 18th century
+- Nineteenth-Century European Philosophy
+- History of Philosophy: Pre-Socratic through Medieval
+- History of Philosophy: Renaissance and Early Modern
 - Deductive Logic
 - Philosophy, Behavior, and the Internet
 - Morality of War & Peace
+- Critical Thinking and Composition
+{{< /columns >}}
 
 I graduated with distinction in both degrees and was awarded summa cum laude. I enjoyed learning about **operating systems**, **computational linguistics**, and **computer networks**. The most fun class was **3d game programming** because of my cool teammates (we won [most well-liked game](https://github.com/ijustin125i/UndeclaredAdventures.git) via classroom vote; later we would create another [game with multiplayer capabilities](https://github.com/east-01/CalculatedCollapse.git)). I also enjoyed **Metaphysics**, **History of Philosophy**, and **Philosophy of Language**. With philosophy, the most fun I had was in philosophy club where I got to hear my classmates' opinions outside of the classroom.
 
