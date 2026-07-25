@@ -1,5 +1,4 @@
 # Bryle's Portfolio
------
 
 Welcome to the repository that holds my website! To create it, some of the tools I used are [**Hugo**](https://gohugo.io/), an open-source static site generator. I also use [GitHub Pages](https://docs.github.com/en/pages) to host my website.
 
