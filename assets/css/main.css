@@ -1,9 +1,14 @@
+html { /* set background color for entire page */
+  background-color: #FFFFFF;
+}
+
 body {
   color: #222;
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
   max-width: 960px;
+  padding: 30px 70px 30px 30px;
 }
 
 header {
@@ -53,4 +58,9 @@ main { /* main content properties */
 .course-columns { /* course columns in sdsu-undergrad page */
   display: flex;
   gap: 2rem;
+}
+
+.color-scheme { /* color palette for body element */
+  background-color: #EDE8E8;
+  color: black;
 }
