@@ -1,9 +1,15 @@
-html { /* set background color for entire page */
-  background-color: #FFFFFF;
+:root {
+  --bg-color: #FFFFFF;
+  --text-color: #222222;
+  --link-color: #00e;
+  --nav-color: black;
+  --main-bg-color: #EDE8E8;
+  --border-color: #222;
 }
 
 body {
-  color: #222;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: sans-serif;
   line-height: 1.5;
   margin: auto auto;
@@ -12,17 +18,17 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 1rem;
 }
 
 footer {
-  border-top: 1px solid #222;
+  border-top: 1px solid var(--border-color);
   margin-top: 1rem;
 }
 
 a {
-  color: #00e;
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -32,8 +38,8 @@ main {
 }
 
 .color-scheme {
-  background-color: #EDE8E8;
-  color: black;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
 }
 
 /* home page content */
@@ -52,7 +58,7 @@ main {
   height: 450px;
   object-fit: cover;
   object-position: center;
-  border: 2px solid #222;
+  border: 2px solid var(--border-color);
   margin-top: 1rem;
 }
 
@@ -69,7 +75,7 @@ main {
 
 .menu-wrapper li a:hover,
 .menu-wrapper li a.active {
-  color: black;
+  color: var(--nav-color);
 }
 
 /* sdsu-undergrad page */
