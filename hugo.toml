@@ -1,6 +1,6 @@
 baseURL = 'https://brylejaronong.github.io/'
 languageCode = 'en-us'
-title = "Bryle's Portfolio"
+title = "Bryle Ong"
 theme = 'custom'
 
 [caches]
