@@ -2,6 +2,7 @@
 <a href="{{ .Destination | safeURL }}"
   {{- with .Title }} title="{{ . }}"{{ end -}}
   {{- if $u.IsAbs }} rel="external noopener" target="_blank"{{ end -}}
+  class="link-underline"
 >
   {{- with .Text }}{{ . }}{{ end -}}
 </a>
