@@ -4,7 +4,7 @@ draft = false
 title = 'My SDSU Undergrad'
 +++
 
-I attended San Diego State University for my undergrad from 2022-2026, and although I kept mostly to myself, I strived to take a variety of courses in both computer science and philosophy. I participated in the following clubs as a regular member: cyberdefense, eleetcoders, quantum computing, philosophy club. I gained experience through the [Real Time Embedded & Controls](https://rtec.sdsu.edu/) Lab under **Prof. Choi**.
+I attended San Diego State University for my undergrad from 2022-2026, and although I kept mostly to myself, I strived to take a variety of courses in both computer science and philosophy. I participated in the following clubs as a regular member: cyberdefense, eleetcoders, quantum computing, philosophy club. I gained experience through the Real Time Embedded & Controls ([RTEC](https://rtec.sdsu.edu/)) Lab under **Prof. Choi**.
 
 {{< columns >}}
 - Networks & Distributed Systems
@@ -32,7 +32,7 @@ I attended San Diego State University for my undergrad from 2022-2026, and altho
 - Critical Thinking and Composition
 {{< /columns >}}
 
-I graduated with distinction in both degrees and was awarded summa cum laude. I enjoyed learning about **operating systems**, **computational linguistics**, and **computer networks**. The most fun class was **3d game programming** because of my cool teammates (we won [most well-liked game](https://github.com/ijustin125i/UndeclaredAdventures.git) via classroom vote; later we would create another [game with multiplayer capabilities](https://github.com/east-01/CalculatedCollapse.git)). I also enjoyed **Metaphysics**, **History of Philosophy**, and **Philosophy of Language**. With philosophy, the most fun I had was in philosophy club where I got to hear my classmates' opinions outside of the classroom.
+I graduated with distinction in both degrees and was awarded summa cum laude. I enjoyed learning about **operating systems**, **computational linguistics**, and **computer networks**. The most fun class was **3d game programming** because of my cool teammates (we won [most well-liked game](https://github.com/ijustin125i/UndeclaredAdventures.git) via classroom vote; later we would create [another game](https://github.com/east-01/CalculatedCollapse.git) with multiplayer capabilities). I also enjoyed **Metaphysics**, **History of Philosophy**, and **Philosophy of Language**. With philosophy, the most fun I had was in philosophy club where I got to hear my classmates' opinions outside of the classroom.
 
 ![Undeclared Adventures](undeclared-adventures.jpg)
 ![Apida Excellence](apida-excellence.jpg)
