@@ -12,15 +12,15 @@ theme = 'custom'
     name = 'Home'
     pageRef = '/'
     weight = 10
-
-  [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
-    weight = 20
   
   [[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
+    weight = 20
+    
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
     weight = 30
 
 [module]
