@@ -26,25 +26,27 @@ a {
   text-decoration: none;
 }
 
-main { /* main content properties */
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 40px;
-  padding-right: 40px;
+main {
+  padding: 1rem 40x 1rem 40px;
   aspect-ratio: 16/ 9;
 }
 
+.color-scheme {
+  background-color: #EDE8E8;
+  color: black;
+}
+
 /* home page content */
-.home-wrapper { /* home page content wrapper */
+.home-wrapper {
   display: flex;
   gap: 2rem;
 }
 
-.text-content { /* text content wrapper */
+.text-content {
   flex: 1;
 }
 
-.profile-photo { /* profile photo styling */
+.profile-photo {
   flex: none;
   width: 300px;
   height: 450px;
@@ -53,34 +55,27 @@ main { /* main content properties */
   border: 2px solid #222;
   margin-top: 1rem;
 }
-/* end of home page content */
 
-.menu-wrapper { /* navigation bar wrapper */
+ /* navigation bar */
+.menu-wrapper {
   display: flex;
   gap: 1rem;
   list-style-type: none;
 }
 
-.menu-wrapper li a { /* navigation links */
+.menu-wrapper li a {
   font-weight: bold;
 }
 
-.menu-wrapper li a:hover { /* navigation links hover state */
+.menu-wrapper li a:hover,
+.menu-wrapper li a.active {
   color: black;
 }
 
-.menu-wrapper li a.active { /* navigation links current page state */
-  color: black;
-}
-
-.course-columns { /* course columns in sdsu-undergrad page */
+/* sdsu-undergrad page */
+.course-columns {
   display: flex;
   gap: 2rem;
-}
-
-.color-scheme { /* color palette for body element */
-  background-color: #EDE8E8;
-  color: black;
 }
 
 /* link underline styling */
@@ -105,4 +100,3 @@ main { /* main content properties */
 .link-underline:hover::after {
   transform: scaleX(1);
 }
-/* end of underline styling */
