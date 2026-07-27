@@ -46,6 +46,7 @@ main { /* main content properties */
   height: 450px;
   object-fit: cover;
   object-position: center;
+  border: 3px solid #222;
 }
 /* end of home page content */
 
