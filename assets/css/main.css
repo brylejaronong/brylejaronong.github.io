@@ -109,9 +109,9 @@ main {
 
 /* website dark mode toggle */
 .dark-mode {
-  --bg-color: #222222;
-  --text-color: #FFFFFF;
-  --link-color: #66b2ff;
+  --bg-color: #141414;
+  --text-color: #d4d9de;
+  --link-color: #58a6ff;
   --nav-color: white;
   --main-bg-color: #333333;
   --border-color: #5E636E;
