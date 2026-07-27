@@ -3,11 +3,11 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="color-scheme">
+<body>
   <header>
     {{ partial "header.html" . }}
   </header>
-  <main>
+  <main class="color-scheme">
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
