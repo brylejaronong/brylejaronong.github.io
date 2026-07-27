@@ -55,6 +55,14 @@ main { /* main content properties */
   list-style-type: none;
 }
 
+.menu-wrapper li a { /* navigation links */
+  font-weight: bold;
+}
+
+.menu-wrapper li a:hover { /* navigation links */
+  color: black;
+}
+
 .course-columns { /* course columns in sdsu-undergrad page */
   display: flex;
   gap: 2rem;
