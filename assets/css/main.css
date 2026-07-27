@@ -106,3 +106,13 @@ main {
 .link-underline:hover::after {
   transform: scaleX(1);
 }
+
+/* website dark mode toggle */
+.dark-mode {
+  --bg-color: #222222;
+  --text-color: #FFFFFF;
+  --link-color: #66b2ff;
+  --nav-color: white;
+  --main-bg-color: #333333;
+  --border-color: #5E636E;
+}
