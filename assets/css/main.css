@@ -59,7 +59,11 @@ main { /* main content properties */
   font-weight: bold;
 }
 
-.menu-wrapper li a:hover { /* navigation links */
+.menu-wrapper li a:hover { /* navigation links hover state */
+  color: black;
+}
+
+.menu-wrapper li a.active { /* navigation links current page state */
   color: black;
 }
 
