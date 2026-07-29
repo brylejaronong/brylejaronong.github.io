@@ -124,3 +124,13 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--nav-color);
+  color: var(--bg-color);
+  font-weight: bold;
+  border-radius: 4px;
+}
