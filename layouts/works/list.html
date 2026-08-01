@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ .Content }}
+  <div class="works-grid">
+    {{ range .Pages }}
+      <div class="work-tile">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Params.summary }}</p>
+        <a href="{{ .Params.link }}" class="work-link" target="_blank" rel="noopener">
+          <p>{{ .Params.view }}</p>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
