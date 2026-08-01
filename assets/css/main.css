@@ -127,10 +127,25 @@ main {
 
 .dark-mode-toggle {
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: var(--nav-color);
-  color: var(--bg-color);
-  font-weight: bold;
-  border-radius: 4px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.icon-sun .icon-moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-moon {
+  display: none;
+}
+
+.dark-mode .icon-sun {
+  display: none;
+}
+
+.dark-mode .icon-moon {
+  display: inline;
 }
