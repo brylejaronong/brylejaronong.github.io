@@ -1,5 +1,4 @@
-/* CSS Document */
-/* website default colors */
+/* website light mode */
 :root {
   --bg-color: #FFFFFF;
   --text-color: #222222;
@@ -7,6 +6,16 @@
   --nav-color: black;
   --main-bg-color: #EDE8E8;
   --border-color: #222;
+}
+
+/* website dark mode */
+.dark-mode {
+  --bg-color: #141414;
+  --text-color: #d4d9de;
+  --link-color: #58a6ff;
+  --nav-color: white;
+  --main-bg-color: #333333;
+  --border-color: #5E636E;
 }
 
 body {
@@ -34,6 +43,7 @@ a {
   text-decoration: none;
 }
 
+/* main content area */
 main {
   padding: 1rem 40px 1rem 40px;
   aspect-ratio: 16/9;
@@ -80,6 +90,12 @@ main {
   color: var(--nav-color);
 }
 
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* sdsu-undergrad page */
 .course-columns {
   display: flex;
@@ -109,22 +125,7 @@ main {
   transform: scaleX(1);
 }
 
-/* website dark mode colors */
-.dark-mode {
-  --bg-color: #141414;
-  --text-color: #d4d9de;
-  --link-color: #58a6ff;
-  --nav-color: white;
-  --main-bg-color: #333333;
-  --border-color: #5E636E;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
+/* dark mode toggle button */
 .dark-mode-toggle {
   cursor: pointer;
   position: relative;
