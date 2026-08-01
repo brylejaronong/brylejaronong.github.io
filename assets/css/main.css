@@ -150,3 +150,33 @@ main {
 .dark-mode .icon-moon {
   display: inline;
 }
+
+/* works page */
+.works-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.work-tile {
+  display: block;
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+}
+
+.work-tile h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-tile p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.work-link {
+  color: var(--link-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
