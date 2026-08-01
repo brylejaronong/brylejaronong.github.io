@@ -14,8 +14,8 @@ theme = 'custom'
     weight = 10
   
   [[menus.main]]
-    name = 'Projects'
-    pageRef = '/projects'
+    name = 'Works'
+    pageRef = '/works'
     weight = 20
     
   [[menus.main]]
