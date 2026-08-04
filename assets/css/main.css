@@ -96,12 +96,6 @@ main {
   align-items: center;
 }
 
-/* sdsu-undergrad page */
-.course-columns {
-  display: flex;
-  gap: 2rem;
-}
-
 /* link underline styling */
 .link-underline {
   position: relative;
@@ -179,4 +173,29 @@ main {
   font-size: 0.9rem;
   font-weight: bold;
   margin-bottom: 0;
+}
+
+/* sdsu-undergrad page */
+.course-columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.imgrow {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imgrow figure.imgfig {
+	margin: 0;
+	flex: 1 1 0;
+}
+
+.imgrow img {
+	width: 100%;
+	height: 400px;
+  object-fit: cover;
+	display: block;
 }
