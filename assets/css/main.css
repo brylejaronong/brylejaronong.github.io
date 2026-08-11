@@ -25,7 +25,7 @@ body {
   line-height: 1.5;
   margin: auto auto;
   max-width: 960px;
-  padding: 30px 70px 30px 30px;
+  padding: 20px;
 }
 
 header {
@@ -72,6 +72,18 @@ main {
   object-position: center;
   border: 2px solid var(--border-color);
   margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+  .profile-photo {
+    display: none;
+  }
+  .menu-wrapper {
+    padding-left: 1rem;
+  }
 }
 
  /* navigation bar */
