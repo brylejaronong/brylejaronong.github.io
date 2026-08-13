@@ -181,8 +181,8 @@ main {
 }
 
 .work-link {
+  display: inline-block;
   color: var(--link-color);
-  font-size: 0.9rem;
   font-weight: bold;
   margin-bottom: 0;
 }
